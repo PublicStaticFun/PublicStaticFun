@@ -13,7 +13,7 @@ Bienvenido a mi perfil de GitHub. Aquí encontrarás mis proyectos y contribucio
 
 - **📧 Correo:** mario.aleprogramming@outlook.com
 
-- **🐙 GitHub:** [Enlace a tu GitHub, ej. https://github.com/tuusuario]
+- **🐙 GitHub:** https://github.com/PublicStaticFun
 
 - **🌐 Sitio Web:** Proximamente
 
