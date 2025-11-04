@@ -1,0 +1,52 @@
+name: Update Experience Years
+
+on:
+  schedule:
+    - cron: '0 0 30 10 *'  # Ejecuta el 30 de octubre a las 00:00 UTC cada año
+  workflow_dispatch:  # Permite ejecutarlo manualmente desde GitHub
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README with current years
+        run: |
+          # Instala Node.js para ejecutar el script
+          npm install date-fns  # Librería para manejar fechas
+
+          # Script en Node.js para calcular años
+          node -e "
+          const { differenceInYears } = require('date-fns');
+          const fs = require('fs');
+
+          // Define fechas de inicio para cada habilidad (ajusta con tus fechas reales)
+          const startDates = {
+            'React': new Date('2025-10-30'),  // Ejemplo: empezaste en 2025
+            'PostgreSQL': new Date('2025-10-30'),  // Ejemplo: empezaste en 2021
+            'Django': new Date('2025-10-30')   // Ejemplo: empezaste en 2020
+          };
+
+          let readme = fs.readFileSync('README.md', 'utf8');
+          const currentYear = new Date().getFullYear();
+
+          // Reemplaza placeholders como [React-Years] con el cálculo
+          Object.keys(startDates).forEach(skill => {
+            const years = differenceInYears(new Date(), startDates[skill]);
+            readme = readme.replace(new RegExp(\`\\\\$${skill}-Years\\\\$\`, 'g'), years);
+          });
+
+          fs.writeFileSync('README.md', readme);
+          "
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add README.md
+          git commit -m 'Update experience years automatically' || echo 'No changes to commit'
+          git push
