@@ -25,10 +25,15 @@ Bienvenido a mi perfil de GitHub. Aquí encontrarás mis proyectos y contribucio
 
 Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previa y un enlace al repositorio.
 
-- ![Vista Previa Proyecto 1]([https://via.placeholder.com/400x200?text=Proyecto+1](https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true))  
-  **Proyecto 1: Mi App Web Interactiva**  
-  Una aplicación web responsiva con JavaScript y React.  
-  [Ver en GitHub](https://github.com/tuusuario/proyecto1)
+ <div align="center">
+    <table>
+    <tr>
+      <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Sistema de Gestión Estudiantil</strong><br><a href="url">¡Sumergete!</a></td>
+      <td><img src="https://picsum.photos/150/100?random=2" width="150"><br>**Proyecto 2**<br>Descripción<br>[Enlace](url)</td>
+      <td><img src="https://picsum.photos/150/100?random=3" width="150"><br>**Proyecto 3**<br>Descripción<br>[Enlace](url)</td>
+    </tr>
+  </table>
+ </div>
 
 ### 🧠 Experiencia Técnica
 
@@ -49,17 +54,12 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
 
 ## 📈 Estadísticas de GitHub
 
-
 ![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=PublicStaticFun&show_icons=true&theme=radical)
-
 
 ## 📫 Contacto
 
-
 Si quieres colaborar o charlar, ¡envíame un mensaje!
 
-
 ---
-
 
 ⭐ Si te gusta mi trabajo, ¡dale una estrella a mis repositorios!
