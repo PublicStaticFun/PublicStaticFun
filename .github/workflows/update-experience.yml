@@ -60,16 +60,16 @@ jobs:
 
       # 5️⃣ Hacer commit y push de los cambios
       - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain)" ]; then
-            git add README.md
-            git commit -m "Update experience years automatically"
-            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
-          else
-            echo "No hay cambios que subir."
-          fi
+
+          git add README.md
+          git commit -m "Update experience years automatically" || echo "No changes to commit"
+
+          git fetch origin main
+          git pull origin main --rebase || true
+
+          git push origin main
+
 
