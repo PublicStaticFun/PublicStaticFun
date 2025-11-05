@@ -25,7 +25,7 @@ Bienvenido a mi perfil de GitHub. Aquí encontrarás mis proyectos y contribucio
 
 Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previa y un enlace al repositorio.
 
-- ![Vista Previa Proyecto 1](https://via.placeholder.com/400x200?text=Proyecto+1)  
+- ![Vista Previa Proyecto 1]([https://via.placeholder.com/400x200?text=Proyecto+1](https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true))  
   **Proyecto 1: Mi App Web Interactiva**  
   Una aplicación web responsiva con JavaScript y React.  
   [Ver en GitHub](https://github.com/tuusuario/proyecto1)
