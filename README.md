@@ -27,11 +27,11 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
 
  <div align="center">
     <table>
-    <tr>
-      <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Sistema de Gestión Estudiantil</strong><br><a href="url">¡Sumergete!</a></td>
-      <td><img src="https://picsum.photos/150/100?random=2" width="150"><br>**Proyecto 2**<br>Descripción<br>[Enlace](url)</td>
-      <td><img src="https://picsum.photos/150/100?random=3" width="150"><br>**Proyecto 3**<br>Descripción<br>[Enlace](url)</td>
-    </tr>
+     <tr>
+       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Sistema de Gestión Estudiantil</strong><br><a href="https://github.com/PublicStaticFun/student_management_dj">¡Sumergete!</a></td>
+       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Proyecto 2</strong><br>Descripción<br>[Enlace](url)</td>
+       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br>**Proyecto 3**<br>Descripción<br>[Enlace](url)</td>
+     </tr>
   </table>
  </div>
 
