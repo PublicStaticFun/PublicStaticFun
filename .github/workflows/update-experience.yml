@@ -1,64 +1,52 @@
 name: Update Experience Years
 
-permissions:
-  contents: write
-
 on:
   schedule:
-    - cron: '0 0 30 10 *'  # Corre el 30 de octubre cada año a las 00:00 UTC
-  workflow_dispatch:  # Permite ejecutarlo manualmente
+    - cron: '0 0 30 10 *'  # Ejecuta cada 30 de octubre a las 00:00 UTC
+  workflow_dispatch:        # Permite ejecutarlo manualmente desde GitHub
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Da permiso al bot para hacer push
 
     steps:
-      # 1️⃣ Descargar el repositorio
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2️⃣ Instalar Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20'
 
-      # 3️⃣ Instalar date-fns (sin modificar tu package.json)
-      - name: Install date-fns (no modifica package.json)
-        run: npm install date-fns --no-save
-
-      # 4️⃣ Actualizar automáticamente el README.md
       - name: Update README with current years
         run: |
-          node <<'EOF'
+          npm install date-fns
+
+          node -e "
           const { differenceInYears } = require('date-fns');
           const fs = require('fs');
 
-          // Fechas de inicio de experiencia
-          const startDates = {
-            'React': new Date('2022-10-30'),
-            'PostgreSQL': new Date('2021-10-30'),
-            'Django': new Date('2020-10-30')
+          // Fechas de inicio
+          const skills = {
+            REACT_YEARS: new Date('2021-01-01'),
+            DJANGO_YEARS: new Date('2020-01-01'),
+            POSTGRES_YEARS: new Date('2019-01-01'),
           };
 
-          // Leer el README.md
           let readme = fs.readFileSync('README.md', 'utf8');
 
-          // Reemplazar los placeholders [React-Years], etc.
-          Object.keys(startDates).forEach(skill => {
-            const years = differenceInYears(new Date(), startDates[skill]);
-            const pattern = new RegExp(`\\[${skill}-Years\\]`, 'g');
-            readme = readme.replace(pattern, String(years));
+          // Reemplaza las variables en el README
+          Object.entries(skills).forEach(([key, date]) => {
+            const years = differenceInYears(new Date(), date);
+            const regex = new RegExp(`\\$\\{\\{ ${key} \\}\\}`, 'g');
+            readme = readme.replace(regex, years);
           });
 
-          // Guardar los cambios
           fs.writeFileSync('README.md', readme);
-          console.log('✅ README actualizado correctamente');
-          EOF
+          "
 
-      # 5️⃣ Hacer commit y push de los cambios
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
@@ -68,8 +56,5 @@ jobs:
           git add README.md
           git commit -m "Update experience years automatically" || echo "No changes to commit"
 
-          # Intenta rebase para mantener historial limpio
           git pull origin main --rebase || true
-
-          # Forza el push de manera segura
           git push origin main --force-with-lease
