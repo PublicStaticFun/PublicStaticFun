@@ -47,14 +47,18 @@ jobs:
           fs.writeFileSync('README.md', readme);
           "
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+            - name: Commit and push changes
+            run: |
+              git config --local user.email "action@github.com"
+              git config --local user.name "GitHub Action"
 
-          git fetch origin main
-          git add README.md
-          git commit -m "Update experience years automatically" || echo "No changes to commit"
+              git fetch origin main
+              git add README.md
+              git commit -m "Update experience years automatically" || echo "No changes to commit"
 
-          git pull origin main --rebase || true
-          git push origin main --force-with-lease
+              # Sincroniza antes de subir
+              git pull origin main --rebase || true
+
+              # Sube con seguridad
+              git push origin main --force-with-lease
+
