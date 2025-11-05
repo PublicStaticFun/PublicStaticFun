@@ -23,26 +23,29 @@ Bienvenido a mi perfil de GitHub. Aquí encontrarás mis proyectos y contribucio
 
 ## 🚀 Proyectos Destacados
 
+Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previa y un enlace al repositorio.
 
-- [Proyecto 1](enlace): Descripción breve.
-
-- [Proyecto 2](enlace): Descripción breve.
+- ![Vista Previa Proyecto 1](https://via.placeholder.com/400x200?text=Proyecto+1)  
+  **Proyecto 1: Mi App Web Interactiva**  
+  Una aplicación web responsiva con JavaScript y React.  
+  [Ver en GitHub](https://github.com/tuusuario/proyecto1)
 
 ### 🧠 Experiencia Técnica
 
 #### Frontend
-- ![React Experience](https://img.shields.io/badge/React-${{ REACT_YEARS }}_años-blue?logo=react) **React**  
-  - Proyectos: [Mi Proyecto React](https://tu-enlace-a-proyecto.com)
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+</div>
 
 #### Backend
-- ![Django Experience](https://img.shields.io/badge/Django-${{ DJANGO_YEARS }}_años-green?logo=django) **Django**  
-  - Proyectos: [Mi Proyecto Django](https://tu-enlace-a-proyecto.com)
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"  />
+</div>
 
-#### Base de Datos
-- ![PostgreSQL Experience](https://img.shields.io/badge/PostgreSQL-${{ POSTGRES_YEARS }}_años-blue?logo=postgresql) **PostgreSQL**  
-  - Proyectos: [Mi Proyecto PostgreSQL](https://tu-enlace-a-proyecto.com)
-
----
+#### Base de datos
+<div align="center">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+</div>
 
 ## 📈 Estadísticas de GitHub
 
