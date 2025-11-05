@@ -60,6 +60,9 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
 
 Si quieres colaborar o charlar, ¡envíame un mensaje!
 
----
-
 ⭐ Si te gusta mi trabajo, ¡dale una estrella a mis repositorios!
+
+<div align="center">
+ <img src="https://i.pinimg.com/originals/36/24/c9/3624c9e8c24743be95436cce11f24164.gif" width="250" alt="Twilight GIF">
+ <img src="https://i.redd.it/qzqajyvzi4xd1.gif" width="250" alt="Burnice GIF">
+</div>
