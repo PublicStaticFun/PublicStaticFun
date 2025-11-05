@@ -28,6 +28,21 @@ Bienvenido a mi perfil de GitHub. Aquí encontrarás mis proyectos y contribucio
 
 - [Proyecto 2](enlace): Descripción breve.
 
+### 🧠 Experiencia Técnica
+
+#### Frontend
+- ![React Experience](https://img.shields.io/badge/React-${{ REACT_YEARS }}_años-blue?logo=react) **React**  
+  - Proyectos: [Mi Proyecto React](https://tu-enlace-a-proyecto.com)
+
+#### Backend
+- ![Django Experience](https://img.shields.io/badge/Django-${{ DJANGO_YEARS }}_años-green?logo=django) **Django**  
+  - Proyectos: [Mi Proyecto Django](https://tu-enlace-a-proyecto.com)
+
+#### Base de Datos
+- ![PostgreSQL Experience](https://img.shields.io/badge/PostgreSQL-${{ POSTGRES_YEARS }}_años-blue?logo=postgresql) **PostgreSQL**  
+  - Proyectos: [Mi Proyecto PostgreSQL](https://tu-enlace-a-proyecto.com)
+
+---
 
 ## 📈 Estadísticas de GitHub
 
