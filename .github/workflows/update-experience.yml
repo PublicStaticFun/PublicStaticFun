@@ -64,12 +64,12 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+          git fetch origin main
           git add README.md
           git commit -m "Update experience years automatically" || echo "No changes to commit"
 
-          git fetch origin main
+          # Intenta rebase para mantener historial limpio
           git pull origin main --rebase || true
 
-          git push origin main
-
-
+          # Forza el push de manera segura
+          git push origin main --force-with-lease
