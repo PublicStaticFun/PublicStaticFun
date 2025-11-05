@@ -1,53 +1,74 @@
 name: Update Experience Years
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: '0 0 30 10 *'  # Ejecuta cada 30 de octubre a las 00:00 UTC
-  workflow_dispatch:  # Permite ejecutarlo manualmente desde GitHub Actions
+    - cron: '0 0 30 10 *'  # Corre el 30 de octubre cada año a las 00:00 UTC
+  workflow_dispatch:  # Permite ejecutarlo manualmente
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Descargar el repositorio
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 2️⃣ Instalar Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install date-fns
+      # 3️⃣ Instalar date-fns (sin modificar tu package.json)
+      - name: Install date-fns (no modifica package.json)
+        run: npm install date-fns --no-save
 
+      # 4️⃣ Actualizar automáticamente el README.md
       - name: Update README with current years
         run: |
           node <<'EOF'
           const { differenceInYears } = require('date-fns');
           const fs = require('fs');
 
-          // Fechas reales de inicio
+          // Fechas de inicio de experiencia
           const startDates = {
             'React': new Date('2022-10-30'),
             'PostgreSQL': new Date('2021-10-30'),
             'Django': new Date('2020-10-30')
           };
 
+          // Leer el README.md
           let readme = fs.readFileSync('README.md', 'utf8');
 
+          // Reemplazar los placeholders [React-Years], etc.
           Object.keys(startDates).forEach(skill => {
             const years = differenceInYears(new Date(), startDates[skill]);
-            readme = readme.replace(new RegExp(`\\[${skill}-Years\\]`, 'g'), years);
+            const pattern = new RegExp(`\\[${skill}-Years\\]`, 'g');
+            readme = readme.replace(pattern, String(years));
           });
 
+          // Guardar los cambios
           fs.writeFileSync('README.md', readme);
+          console.log('✅ README actualizado correctamente');
           EOF
 
+      # 5️⃣ Hacer commit y push de los cambios
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --local user.email 'action@github.com'
-          git config --local user.name 'GitHub Action'
-          git add README.md
-          git commit -m "Update experience years automatically" || echo "No changes to commit"
-          git push
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md
+            git commit -m "Update experience years automatically"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          else
+            echo "No hay cambios que subir."
+          fi
