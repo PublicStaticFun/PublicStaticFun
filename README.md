@@ -1,4 +1,6 @@
-## ¡Hola! Soy Public Static Code 👋
+![Imagen del banner](https://github.com/user-attachments/assets/04fccf49-cf38-4b31-85d2-a243c64fea9d)
+
+# ¡Hola! Soy Public Static Code 👋
 Bienvenido a mi perfil de GitHub. Aquí encontrarás mis proyectos y contribuciones. ¡No dudes en explorar y contactarme!
 
 
@@ -29,8 +31,8 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
     <table>
      <tr>
        <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Sistema de Gestión Estudiantil</strong><br><a href="https://github.com/PublicStaticFun/student_management_dj">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Proyecto 2</strong><br>Descripción<br>[Enlace](url)</td>
-       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br>**Proyecto 3**<br>Descripción<br>[Enlace](url)</td>
+       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Proyecto 2</strong><br>[Enlace](url)</td>
+       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br>**Proyecto 3**<br>[Enlace](url)</td>
      </tr>
   </table>
  </div>
