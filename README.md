@@ -58,6 +58,8 @@ Aquí algunos de los temas que más destaco. Cada uno incluye una vista previa y
 #### Frontend
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img src="https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor" height="40" alt="typescript logo"  />
+ <img src="https://icongr.am/devicon/bootstrap-plain.svg?size=128&color=ffffff" height="40" alt="bootstrap logo"  />
 </div>
 
 #### Backend
@@ -69,6 +71,11 @@ Aquí algunos de los temas que más destaco. Cada uno incluye una vista previa y
 #### Base de datos
 <div align="center">
    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+</div>
+
+#### Control de versiones
+<div align="center">
+   <img src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor" height="40" alt="git logo"  />
 </div>
 
 ## 📈 Estadísticas de GitHub
