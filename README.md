@@ -46,6 +46,7 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
 
 #### Backend
 <div align="center">
+  <img src="https://icongr.am/devicon/python-original.svg?size=128&color=currentColor" height="40" alt="python logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"  />
 </div>
 
