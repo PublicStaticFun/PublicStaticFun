@@ -32,12 +32,28 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
      <tr>
        <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Sistema de Gestión Estudiantil</strong><br><a href="https://github.com/PublicStaticFun/student_management_dj">¡Sumergete!</a></td>
        <td><img src="https://github.com/PublicStaticFun/fintrack/blob/main/Portada2.png?raw=true" width="200"><br><strong>Sistema de Financiamiento FinTrack</strong><br><a href="https://github.com/PublicStaticFun/fintrack">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br>**Proyecto 3**<br>[Enlace](url)</td>
+       <td><img src="https://github.com/PublicStaticFun/python_sorting/blob/master/Imagenes/Portada3.png?raw=true" width="200"><br>**Proyecto 3**<br>[Enlace](url)</td>
      </tr>
   </table>
  </div>
 
-### 🧠 Experiencia Técnica
+ ## 🚀 Temas Destacados
+
+Aquí algunos de los temas que más destaco. Cada uno incluye una vista previa y un enlace al repositorio.
+
+ <div align="center">
+    <table>
+     <tr>
+       <td><img src="https://github.com/PublicStaticFun/python_sorting/blob/master/Imagenes/Portada3.png?raw=true" width="200"><br><strong>Algoritmos de ordenamiento en Python</strong><br><a href="https://github.com/PublicStaticFun/student_management_dj">¡Sumergete!</a></td>
+       <td><img src="https://github.com/PublicStaticFun/fintrack/blob/main/Portada2.png?raw=true" width="200"><br><strong>Sistema de Financiamiento FinTrack</strong><br><a href="https://github.com/PublicStaticFun/fintrack">¡Sumergete!</a></td>
+       <td><img src="https://github.com/PublicStaticFun/python_sorting/blob/master/Imagenes/Portada3.png?raw=true" width="200"><br>**Proyecto 3**<br>[Enlace](url)</td>
+     </tr>
+  </table>
+ </div>
+
+
+
+## 🧠 Experiencia Técnica
 
 #### Frontend
 <div align="center">
