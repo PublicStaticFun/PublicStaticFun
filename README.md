@@ -34,6 +34,11 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
        <td><img src="https://github.com/PublicStaticFun/fintrack/blob/main/Portada2.png?raw=true" width="200"><br><strong>Sistema de Financiamiento FinTrack</strong><br><a href="https://github.com/PublicStaticFun/fintrack">¡Sumergete!</a></td>
        <td><img src="https://github.com/PublicStaticFun/northwind-dj-react/blob/main/Imagenes/Portada4.png?raw=true" width="200"><br><strong>Sistema CRUD Northwind</strong><br><a href="https://github.com/PublicStaticFun/northwind-dj-react">¡Sumergete!</a></td>
      </tr>
+     <tr>
+       <td><img src="https://github.com/PublicStaticFun/biblioteca_django_api/raw/main/Portada6.png?raw=true" width="200"><br><strong>Biblioteca Backend PostgreSQL + Django REST</strong><br><a href="https://github.com/PublicStaticFun/biblioteca_django_api">¡Sumergete!</a></td>
+       <td><img src="https://github.com/PublicStaticFun/fintrack/blob/main/Portada2.png?raw=true" width="200"><br><strong>Sistema de Financiamiento FinTrack</strong><br><a href="https://github.com/PublicStaticFun/fintrack">¡Sumergete!</a></td>
+       <td><img src="https://github.com/PublicStaticFun/northwind-dj-react/blob/main/Imagenes/Portada4.png?raw=true" width="200"><br><strong>Sistema CRUD Northwind</strong><br><a href="https://github.com/PublicStaticFun/northwind-dj-react">¡Sumergete!</a></td>
+     </tr>
   </table>
  </div>
 
