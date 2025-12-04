@@ -51,7 +51,7 @@ Aquí algunos de los temas que más destaco. Cada uno incluye una vista previa y
      <tr>
        <td><img src="https://github.com/PublicStaticFun/python_sorting/blob/master/Imagenes/Portada3.png?raw=true" width="200"><br><strong>Algoritmos de ordenamiento en Python</strong><br><a href="https://github.com/PublicStaticFun/python_sorting">¡Sumergete!</a></td>
        <td><img src="https://github.com/PublicStaticFun/poo-js/blob/main/Images/Portada5.png?raw=true" width="200"><br><strong>POO en JavaScript</strong><br><a href="https://github.com/PublicStaticFun/poo-js">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/python_sorting/blob/master/Imagenes/Portada3.png?raw=true" width="200"><br>**Proyecto 3**<br>[Enlace](url)</td>
+       <td><img src="https://github.com/PublicStaticFun/django-auth/blob/main/Portada7.png" width="200"><br>**Auth con Django**<br>[Enlace](url)</td>
      </tr>
   </table>
  </div>
