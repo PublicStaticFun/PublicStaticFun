@@ -1,46 +1,94 @@
 ![Imagen del banner](https://github.com/user-attachments/assets/04fccf49-cf38-4b31-85d2-a243c64fea9d)
 
-# ¡Hola! Soy Public Static Code 👋
-Bienvenido a mi perfil de GitHub. Aquí encontrarás mis proyectos y contribuciones. ¡No dudes en explorar y contactarme!
+# 👋 Hola, soy Mario Alejandro
+💻 Desarrollador Web Full Stack en formación  
+🚀 Construyendo aplicaciones web con Python, Django, React y PostgreSQL  
+📚 En constante aprendizaje de arquitectura web, bases de datos y desarrollo de software.
 
+## 📇 Sobre mí
 
-## 📇 Tarjeta de Presentación
-
-
-- **👤 Nombre:** Public Static Code
-
-- **💼 Profesión:** Desarrollador Web. Full Stack
-
-- **📍 Ubicación:** Por razones obvias, no puedo darles mi ubicación uwu.
-
-- **📧 Correo:** mario.aleprogramming@outlook.com
-
-- **🐙 GitHub:** https://github.com/PublicStaticFun
-
-- **🌐 Sitio Web:** [¡Mi sitio web!](https://publicstaticfun.github.io/mi-portafolio/)
-
-- **🌐 YouTube:** Proximamente
-
-- **💡 Intereses:** Desarrollo Web, Frontend, Backend, Base de datos
+Soy desarrollador web Python/PHP en formación, interesado en construir aplicaciones web completas, mantenibles y escalables.
+- **🌐 Desarrollo Frontend**
+- **⚙️ Desarrollo Backend**
+- **🗄️ Bases de datos**
+- **🏗️ Arquitecturas web**
+- **🧪 Testing y QA**
+- **☁️ Despliegue y servicios cloud**
 
 ## 🚀 Proyectos Destacados
 
 Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previa y un enlace al repositorio.
 
- <div align="center">
-    <table>
-     <tr>
-       <td><img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="200"><br><strong>Sistema de Gestión Estudiantil</strong><br><a href="https://github.com/PublicStaticFun/student_management_dj">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/fintrack/blob/main/Portada2.png?raw=true" width="200"><br><strong>Sistema de Financiamiento FinTrack</strong><br><a href="https://github.com/PublicStaticFun/fintrack">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/northwind-dj-react/blob/main/Imagenes/Portada4.png?raw=true" width="200"><br><strong>Sistema CRUD Northwind</strong><br><a href="https://github.com/PublicStaticFun/northwind-dj-react">¡Sumergete!</a></td>
-     </tr>
-     <tr>
-       <td><img src="https://github.com/PublicStaticFun/biblioteca_django_api/raw/main/Portada6.png?raw=true" width="200"><br><strong>Biblioteca Backend PostgreSQL + Django REST</strong><br><a href="https://github.com/PublicStaticFun/biblioteca_django_api">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/fintrack/blob/main/Portada2.png?raw=true" width="200"><br><strong>Sistema de Financiamiento FinTrack</strong><br><a href="https://github.com/PublicStaticFun/fintrack">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/northwind-dj-react/blob/main/Imagenes/Portada4.png?raw=true" width="200"><br><strong>Sistema CRUD Northwind</strong><br><a href="https://github.com/PublicStaticFun/northwind-dj-react">¡Sumergete!</a></td>
-     </tr>
-  </table>
- </div>
+<table>
+ <tr>
+  <td width="40%">
+   <img src="https://github.com/PublicStaticFun/student_management_dj/blob/main/Portada_Student.png?raw=true" width="400">
+  </td>
+  <td width="60%">
+   <h3>Sistema de Gestión Estudiantil</h3>
+   <p>
+    Aplicación web para administrar estudiantes, cursos, calificaciones y operaciones academicas.
+   </p>
+   <p>
+    <strong> Tecnologias:</strong><br/>
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/django.svg" height="70" alt="django logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Base%20de%20datos/postgresql.svg" height="70" alt="postgresql logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Lenguajes%20de%20programacion/python.svg" height="70" alt="python logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/react.svg" height="70" alt="react logo"  />
+   </p>
+   <p>
+    🔗 <a href="https://github.com/PublicStaticFun/student_management_dj">Repositorio</a>
+    &nbsp;&nbsp;
+   </p>
+  </td>
+ </tr>
+ <!-- Segundo proyecto -->
+ <tr>
+  <td width="40%">
+   <img src="https://github.com/PublicStaticFun/fintrack/blob/main/Portada2.png?raw=true" width="400">
+  </td>
+  <td width="60%">
+   <h3>Sistema de finanzas Finntrack</h3>
+   <p>
+    Aplicación web para gestión y seguimiento financiero.
+   </p>
+   <p>
+    <strong> Tecnologias:</strong><br/>
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/django.svg" height="70" alt="django logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Base%20de%20datos/postgresql.svg" height="70" alt="postgresql logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Lenguajes%20de%20programacion/python.svg" height="70" alt="python logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/react.svg" height="70" alt="react logo"  />
+   </p>
+   <p>
+    🔗 <a href="https://github.com/PublicStaticFun/student_management_dj">Repositorio</a>
+    &nbsp;&nbsp;
+   </p>
+  </td>
+ </tr>
+ <!-- Tercer proyecto -->
+ <tr>
+  <td width="40%">
+   <img src="https://github.com/PublicStaticFun/northwind-dj-react/blob/main/Imagenes/Portada4.png?raw=true" width="400">
+  </td>
+  <td width="60%">
+   <h3>Sistema Northwind</h3>
+   <p>
+    Aplicación web para administrar Northwind.
+   </p>
+   <p>
+    <strong> Tecnologias:</strong><br/>
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/django.svg" height="70" alt="django logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Base%20de%20datos/postgresql.svg" height="70" alt="postgresql logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Lenguajes%20de%20programacion/python.svg" height="70" alt="python logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/react.svg" height="70" alt="react logo"  />
+   </p>
+   <p>
+    🔗 <a href="https://github.com/PublicStaticFun/student_management_dj">Repositorio</a>
+    &nbsp;&nbsp;
+   </p>
+  </td>
+ </tr>
+</table>
 
 ## 🧠 Experiencia Técnica
 
@@ -82,11 +130,50 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
  <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Nube/gitlab.svg" height="70" alt="gitlab logo"  />
 </div>
 
+## 💡 ¿Qué puedo desarrollar?
+- **🌐 Aplicaciones web Full Stack**
+- **🔐 Sistemas de autenticación y autorización**
+- **🗄️ Aplicaciones conectadas a bases de datos**
+- **🔌 APIs REST**
+- **📊 Sistemas CRUD**
+- **📈 Sistemas administrativos**
+- **🧪 Pruebas automatizadas**
+- **🐳 Aplicaciones contenerizadas con Docker**
+- **☁️ Aplicaciones desplegadas en la nube**
+
+## 📚 Actualmente aprendiendo
+
+- **🐍 Python avanzado**
+- **🌐 Django**
+- **⚛️ React**
+- **🏗️ Arquitecturas web**
+- **🗄️ PostgreSQL**
+- **🧪 Testing / QA**
+- **🐳 Docker**
+- **☁️ Cloud & Deployment**
+- **🔐 Seguridad web**
+
+## 🎯 Objetivos
+
+Actualmente estoy enfocado en:
+
+- Construir proyectos Full Stack completos.
+- Mejorar mis conocimientos de arquitectura web.
+- Crear APIs REST profesionales.
+- Trabajar con bases de datos relacionales.
+- Aprender testing y automatización.
+- Mejorar mis prácticas de Git y GitHub.
+- Prepararme para oportunidades laborales como desarrollador.
+
 ## 📫 Contacto
 
-Si quieres colaborar o charlar, ¡envíame un mensaje!
+¿Tienes una propuesta, proyecto o simplemente quieres hablar?
 
-⭐ Si te gusta mi trabajo, ¡dale una estrella a mis repositorios!
+📧 **Email:** mario.aleprogramming@outlook.com
+<br/>
+🌐 **Portfolio:** https://publicstaticfun.github.io/mi-portafolio/
+<br/>
+🐙 **GitHub:** https://github.com/PublicStaticFun
 
 <div align="center">
  <img src="https://i.pinimg.com/originals/36/24/c9/3624c9e8c24743be95436cce11f24164.gif" width="250" alt="Twilight GIF">
