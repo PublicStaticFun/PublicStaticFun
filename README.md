@@ -42,22 +42,6 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
   </table>
  </div>
 
- ## 🚀 Temas Destacados
-
-Aquí algunos de los temas que más destaco. Cada uno incluye una vista previa y un enlace al repositorio.
-
- <div align="center">
-    <table>
-     <tr>
-       <td><img src="https://github.com/PublicStaticFun/python_sorting/blob/master/Imagenes/Portada3.png?raw=true" width="200"><br><strong>Algoritmos de ordenamiento en Python</strong><br><a href="https://github.com/PublicStaticFun/python_sorting">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/poo-js/blob/main/Images/Portada5.png?raw=true" width="200"><br><strong>POO en JavaScript</strong><br><a href="https://github.com/PublicStaticFun/poo-js">¡Sumergete!</a></td>
-       <td><img src="https://github.com/PublicStaticFun/django-auth/blob/main/Portada7.png" width="200"><br><strong>Auth en Django</strong><br><a href="https://github.com/PublicStaticFun/django-auth">¡Sumergete!</a></td>
-     </tr>
-  </table>
- </div>
-
-
-
 ## 🧠 Experiencia Técnica
 
 #### Frontend
