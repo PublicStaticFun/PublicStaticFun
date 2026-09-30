@@ -60,7 +60,7 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
     <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/react.svg" height="70" alt="react logo"  />
    </p>
    <p>
-    🔗 <a href="https://github.com/PublicStaticFun/student_management_dj">Repositorio</a>
+    🔗 <a href="https://github.com/PublicStaticFun/fintrack">Repositorio</a>
     &nbsp;&nbsp;
    </p>
   </td>
@@ -83,7 +83,7 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
     <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/react.svg" height="70" alt="react logo"  />
    </p>
    <p>
-    🔗 <a href="https://github.com/PublicStaticFun/student_management_dj">Repositorio</a>
+    🔗 <a href="https://github.com/PublicStaticFun/northwind-dj-react">Repositorio</a>
     &nbsp;&nbsp;
    </p>
   </td>
