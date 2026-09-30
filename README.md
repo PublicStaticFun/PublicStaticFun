@@ -44,32 +44,43 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
 
 ## 🧠 Experiencia Técnica
 
-#### Frontend
+#### Frameworks
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img src="https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor" height="40" alt="typescript logo"  />
- <img src="https://icongr.am/devicon/bootstrap-plain.svg?size=128&color=ffffff" height="40" alt="bootstrap logo"  />
-</div>
-
-#### Backend
-<div align="center">
-  <img src="https://icongr.am/devicon/python-original.svg?size=128&color=currentColor" height="40" alt="python logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"  />
+  <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/angular.svg" height="70" alt="angular logo"  />
+  <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/boostrap.svg" height="70" alt="bootstrap logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/django.svg" height="70" alt="django logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/jquery.svg" height="70" alt="jquery logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/laravel.svg" height="70" alt="laravel logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/react.svg" height="70" alt="react logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/spring.svg" height="70" alt="spring logo"  />
 </div>
 
 #### Base de datos
 <div align="center">
-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+   <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Base%20de%20datos/mysql.svg" height="70" alt="mysql logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Base%20de%20datos/postgresql.svg" height="70" alt="postgresql logo"  />
 </div>
 
-#### Control de versiones
+#### Desarrollo IDE
 <div align="center">
-   <img src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor" height="40" alt="git logo"  />
+   <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Desarrollo%20IDE/eclipse.svg" height="120" alt="eclipse logo"  />
 </div>
 
-## 📈 Estadísticas de GitHub
+#### Lenguajes de programación
+<div align="center">
+   <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Lenguajes%20de%20programacion/java.svg" height="70" alt="java logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Lenguajes%20de%20programacion/javascript.svg" height="70" alt="javascript logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Lenguajes%20de%20programacion/php.png" height="70" alt="php logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Lenguajes%20de%20programacion/python.svg" height="70" alt="python logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Lenguajes%20de%20programacion/typescript.svg" height="70" alt="typescript logo"  />
+</div>
 
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=PublicStaticFun&show_icons=true&theme=radical)
+#### Nube
+<div align="center">
+   <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Nube/docker.svg" height="70" alt="docker logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Nube/github.svg" height="70" alt="git logo"  />
+ <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Nube/gitlab.svg" height="70" alt="gitlab logo"  />
+</div>
 
 ## 📫 Contacto
 
