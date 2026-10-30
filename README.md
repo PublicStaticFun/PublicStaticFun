@@ -88,6 +88,28 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
    </p>
   </td>
  </tr>
+ <!-- Cuarto proyecto -->
+ <tr>
+  <td width="40%">
+   <img src="https://github.com/PublicStaticFun/gestor_proyectos/blob/main/gestor_tareas_miniatura.jpg" width="400">
+  </td>
+  <td width="60%">
+   <h3>Sistema de gestor de tareas</h3>
+   <p>
+    Aplicación web para gestionar tareas.
+   </p>
+   <p>
+    <strong> Tecnologias:</strong><br/>
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/django.svg" height="70" alt="django logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Base%20de%20datos/postgresql.svg" height="70" alt="postgresql logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/bootstrap.svg" height="70" alt="bootstrap logo"  />
+   </p>
+   <p>
+    🔗 <a href="https://github.com/PublicStaticFun/gestor_proyectos">Repositorio</a>
+    &nbsp;&nbsp;
+   </p>
+  </td>
+ </tr>
 </table>
 
 ## 🧠 Experiencia Técnica
