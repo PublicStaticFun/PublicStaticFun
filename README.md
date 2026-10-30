@@ -91,7 +91,7 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
  <!-- Cuarto proyecto -->
  <tr>
   <td width="40%">
-   <img src="https://github.com/PublicStaticFun/gestor_proyectos/blob/main/gestor_tareas_miniatura.jpg" width="400">
+   <img src="https://github.com/PublicStaticFun/gestor_proyectos/blob/main/gestion_tareas_miniatura.jpg" width="400">
   </td>
   <td width="60%">
    <h3>Sistema de gestor de tareas</h3>
