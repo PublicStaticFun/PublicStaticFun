@@ -102,7 +102,7 @@ Aquí algunos de mis proyectos más destacados. Cada uno incluye una vista previ
     <strong> Tecnologias:</strong><br/>
     <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/django.svg" height="70" alt="django logo"  />
     <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Base%20de%20datos/postgresql.svg" height="70" alt="postgresql logo"  />
-    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/bootstrap.svg" height="70" alt="bootstrap logo"  />
+    <img src="https://github.com/PublicStaticFun/PublicStaticFun/blob/main/Logos/Frameworks/boostrap.svg" height="70" alt="bootstrap logo"  />
    </p>
    <p>
     🔗 <a href="https://github.com/PublicStaticFun/gestor_proyectos">Repositorio</a>
